@@ -77,5 +77,13 @@ source ~/.bashrc
 ### Python依赖库
 ```pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/```
 
+### LLVM clang签名获取
+```
+wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
+```
+
 ### Protobuf等依赖安装
-```./common/scripts/install-dependencies.sh```
+```
+./common/scripts/install-dependencies.sh
+```
+
